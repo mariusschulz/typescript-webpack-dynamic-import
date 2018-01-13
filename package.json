@@ -1,0 +1,29 @@
+{
+    "name": "typescript-dynamic-import-demo",
+    "version": "1.0.0",
+    "description": "A demo of how to use dynamic import() expressions with TypeScript and webpack",
+    "scripts": {
+        "build": "webpack",
+        "start": "webpack-dev-server"
+    },
+    "keywords": [],
+    "author": "Marius Schulz",
+    "private": true,
+    "license": "MIT",
+    "dependencies": {
+        "es6-promise": "^4.2.2",
+        "react": "^16.2.0",
+        "react-dom": "^16.2.0",
+        "tslib": "^1.8.1"
+    },
+    "devDependencies": {
+        "@types/jquery": "^3.2.17",
+        "@types/react": "^16.0.34",
+        "@types/react-dom": "^16.0.3",
+        "jquery": "^3.2.1",
+        "ts-loader": "^3.2.0",
+        "typescript": "^2.6.2",
+        "webpack": "^3.10.0",
+        "webpack-dev-server": "^2.10.1"
+    }
+}
