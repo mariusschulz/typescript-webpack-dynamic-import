@@ -155,7 +155,8 @@ Object.defineProperty(__webpack_exports__, "__esModule", { value: true });
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_1_es6_promise__ = __webpack_require__(2);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_1_es6_promise___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_1_es6_promise__);
 
-// We have to provide a Promise polyfill if we're targeting older browsers as well
+// We have to provide a Promise polyfill if we're targeting older browsers
+// because import() returns a promise which resolves once the module is loaded
 
 __WEBPACK_IMPORTED_MODULE_1_es6_promise__["polyfill"]();
 function renderWidget() {
