@@ -1,17 +1,16 @@
 const path = require("path");
-const webpack = require("webpack");
 
 module.exports = {
     entry: "./src/main.ts",
 
     output: {
-        path: path.join(__dirname, "dist"),
+        path: path.join(__dirname, "dist3"),
         filename: "[name].bundle.js",
         chunkFilename: "[name].chunk.js"
     },
 
     resolve: {
-        extensions: [".js", ".ts", ".tsx"]
+        extensions: [".js", ".ts"]
     },
 
     module: {
