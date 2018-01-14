@@ -1,5 +1,5 @@
 {
-    "name": "typescript-dynamic-import-demo",
+    "name": "typescript-webpack-dynamic-import",
     "version": "1.0.0",
     "description": "A demo of how to use dynamic import() expressions with TypeScript and webpack",
     "scripts": {

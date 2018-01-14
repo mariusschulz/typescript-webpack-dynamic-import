@@ -1,4 +1,4 @@
-# typescript-dynamic-import-demo
+# typescript-webpack-dynamic-import
 
 A demo of how to use dynamic `import()` expressions with TypeScript and webpack.
 
