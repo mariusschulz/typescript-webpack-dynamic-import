@@ -2,7 +2,7 @@ const path = require("path");
 
 module.exports = {
     entry: "./src/main.ts",
-
+mode: "development",
     output: {
         path: path.join(__dirname, "dist3"),
         filename: "[name].bundle.js",
@@ -14,7 +14,7 @@ module.exports = {
     },
 
     module: {
-        loaders: [
+        rules: [
             {
                 test: /\.ts$/,
                 include: path.join(__dirname, "src"),
